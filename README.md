@@ -14,7 +14,7 @@ This is a base image so you must prepare the following:
 ```
 + Dockerfile (specifies this image as FROM)
 + .ruby-version
-+ .redpen-version
++ redpen-version
 + Gemfile
 ```
 
