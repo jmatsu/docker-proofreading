@@ -1,3 +1,5 @@
+[![Docker Repository on Quay](https://quay.io/repository/jmatsu/proofreading/status "Docker Repository on Quay")](https://quay.io/repository/jmatsu/proofreading)
+
 # docker-proofreading
 
 The Docker container which can validate text files.

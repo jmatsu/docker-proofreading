@@ -8,10 +8,10 @@ RUN mkdir -p $WORKSPACE
 
 # init locales
 ENV LANG en_US.UTF-8
-RUN apt-get update && apt-get install -y --reinstall locales \
-    echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen \
+RUN apt-get update && apt-get install -y --reinstall locales && \
+    echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen && \
     locale-gen en_US.UTF-8 && \
-    localedef --list-archive && locale -a \
+    localedef --list-archive && locale -a && \
     update-locale en_US.UTF-8
 
 # ready for ruby
