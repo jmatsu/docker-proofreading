@@ -1,4 +1,4 @@
-FROM quay.io/jmatsu/proofreading
+FROM quay.io/jmatsu/proofreading:master
 
 MAINTAINER Jumpei Matsuda <jmatsu.drm@gmail.com>
 
